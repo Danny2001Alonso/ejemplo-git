@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="./registro.css" />
+    <script src="https://kit.fontawesome.com/16b3931492.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <form action="#" class="form"id="form">
+      <h1>Registrate</h1>
+      <div class="container">
+        <div class="container-inputs">
+            <i class="fa-solid fa-user icon"></i>
+            <input type="text" name="name" id="name" placeholder="ingresa tu nombre" required>
+        </div>
+        
+        <p class="formulario__input-error">el usuario debe tener minimo 4 caracteres y solo admite numeros letras y guiones bajos</p>
+        <div class="container-inputs">
+            <i class="fa-solid fa-phone icon"></i>
+            <input type="tel"name= "tel" id="phone" placeholder="57-902134" required>
+        </div>
+        <div class="container-inputs">
+            <i class="fa-solid fa-envelope icon"></i>
+            <input type="email" name="email" id="email" placeholder="ingresa tu correo" required>
+        </div>
+        <div class="container-inputs">
+            <i class="fa-solid fa-key icon"></i>
+            <input type="password" name="password" id="pass" placeholder="ingrese su contraseña" required>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="registrate">
+            <p>Al registrarse acepta todas nuestras <u>Condiciones de uso y politicas de privacidad</u></p>
+            <p>Ya tienes una cuenta? <a class="link" href="#">Iniciar sesion</a></p>
+            <p>volver a <a class="link" href="#">Inicio</a></p>
+        </div>
+      </div>
+    </form>
+    <script>src="validarRegistro.js"</script>
+  </body>
+</html>
