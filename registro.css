@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://th.bing.com/th/id/R.dfbab2046a8b5585a7fc481fb69438e8?rik=9omho2Bdk%2fBbKg&pid=ImgRaw&r=0);
+}
+.form {
+  background-color: aliceblue;
+  padding: 3px;
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Poppins";
+  color: #212f3c;
+  text-align: center;
+}
+.container {
+  padding: 15px;
+  width: 100%;
+}
+.container-inputs {
+  font-size: 22px;
+  color: #283747;
+  border: solid 1px #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+input[type="text"] {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  border: none;
+  margin-left: 10px;
+  color: black;
+  width: 95%;
+}
+input[type="tel"] {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  border: none;
+  margin-left: 10px;
+  color: black;
+  width: 95%;
+}
+input[type="email"] {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  border: none;
+  margin-left: 10px;
+  color: black;
+  width: 95%;
+}
+input[type="password"] {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  border: none;
+  margin-left: 10px;
+  color: black;
+  width: 95%;
+}
+.button {
+  margin-top: 20px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.4rem;
+  color: #ccc;
+  background-color: #283747;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #2069b7;
+}
+p {
+  font-size: 1.3rem;
+  font-family: "sans-serif";
+  text-align: center;
+}
+.link {
+  color: #2069b7;
+  text-decoration: none;
+}
+.link:hover {
+  color: #f61717;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 767px) {
+  form {
+    margin: auto;
+    width: 510px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 25px;
+  }
+  .container-inputs {
+    font-size: 19px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  input[type="text"] {
+    width: 90%;
+    font-size: 19px;
+  }
+  input[type="tel"] {
+    width: 90%;
+    font-size: 19px;
+  }
+  input[type="email"] {
+    width: 90%;
+    font-size: 19px;
+  }
+  input[type="password"] {
+    width: 90%;
+    font-size: 19px;
+  }
+  input[type="submit"] {
+    width: 96%;
+    font-size: 19px;
+  }
+  p{
+    font-size: 20px;
+    padding: 0px 15px;
+  }
+}
+
+
